@@ -10,22 +10,22 @@ package Clase;
  */
 public class ClienteModell {
   
-    private int codigo;
+    private String codigo;
     private String nombre;
     private String apellido;
     private String direccion;
     private String correo;
-    private int telefono;
+    private String telefono;
     
     public ClienteModell()
     {
     }
 
-    public int getCodigo() {
+    public String getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
 
@@ -61,11 +61,11 @@ public class ClienteModell {
         this.correo = correo;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
     
