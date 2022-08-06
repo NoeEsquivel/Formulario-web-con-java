@@ -53,12 +53,13 @@ ClienteModell clientemodell;
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Datos del cliente</h1>");
-            out.println("<h1" + clientemodell.getCodigo() + "</h1>");
+            out.println("<h1>" + clientemodell.getCodigo() + "</h1>");
             out.println("<h1>" + clientemodell.getNombre() +  "</h1>");
             out.println("<h1>" + clientemodell.getApellido() + "</h1>");
             out.println("<h1>" + clientemodell.getDireccion() +  "</h1>");
             out.println("<h1>" + clientemodell.getCorreo() +  "</h1>");
             out.println("<h1>" + clientemodell.getTelefono() +  "</h1>");
+            out.println("<a href=\"http://localhost:8090/Elvin09091711859/\" >Presione aqui para volver al formulario</a>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -103,4 +104,6 @@ ClienteModell clientemodell;
         return "Short description";
     }// </editor-fold>
 
+  
+   
 }
