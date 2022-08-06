@@ -51,7 +51,7 @@ ClienteModell clientemodell;
             out.println("<head>");
             out.println("<title>Servlet ClienteController</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body background=\"https://images5.alphacoders.com/374/thumb-1920-374329.jpg\">");            
             out.println("<h1>Datos del cliente</h1>");
             out.println("<h1>" + clientemodell.getCodigo() + "</h1>");
             out.println("<h1>" + clientemodell.getNombre() +  "</h1>");
@@ -62,6 +62,7 @@ ClienteModell clientemodell;
             out.println("<a href=\"http://localhost:8090/Elvin09091711859/\" >Presione aqui para volver al formulario</a>");
             out.println("</body>");
             out.println("</html>");
+            
         }
     }
 
